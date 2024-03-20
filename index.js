@@ -46,6 +46,5 @@ console.log(res);
 
  const lista = res.filter(r => r.main.feels_like >= 30);
  console.log (`${lista.length} previsões têm
-percepção humana de temperatura acima de 30
-graus`)
+percepção humana `)
   });
